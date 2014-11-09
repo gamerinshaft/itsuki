@@ -26,6 +26,7 @@ body{
 	background: url(../img/wadaiko1.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 }
 
 #section0 .l0 {
@@ -34,51 +35,62 @@ body{
 	background-size: cover;
 	background-position: center;
 }
-#section0 .l1 {
+#section0 img {
+	width: 30%;
+	height: auto;
 	position: absolute;
-	background:  url(../img/wadaiko3.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
+	top: 15%;
+	left: 5%;
+}  
+
 
 #section1 /*wakugumi*/{
 	background: url(../img/2itsuki.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 }
 
 #section2 /*wakugumi*/{
-	background: url(../img/korabo.jpg) no-repeat;
+	background: url(../img/corabo0.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 }
 #section2 .l0 {
 	position: absolute;
-	background:  url(../img/korabo2.png) no-repeat;
+	background:  url(../img/corabo1.png) no-repeat;
 	background-size: cover;
 	background-position: center;
 }
-#section2 .l1 {
+#section2 img {
+	width: 55%;
+	height: auto;
 	position: absolute;
-	background:  url(../img/korabo3.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
+	top: 15%;
+	left: 40%;
+} 
+
 
 #section3 /*wakugumi*/{
-	background: url(../img/irai21.jpg) no-repeat;
+	background: url(../img/irai31.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 }
-#section3 .l0 {
+
+#section3 h1 img {
+	width: 60%;
+	height: auto;
 	position: absolute;
-	background:  url(../img/irai22.png) no-repeat;
-	background-size: cover;
-	background-position: center;
+	top: 10%;
+	left: 20%;
 }
-#section3 .l1 {
+
+#section3 h2 img {
+	width: 5%;
+	height: auto;
 	position: absolute;
-	background:  url(../img/irai23.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
+	top: 60%;
+	left: 45%;
+} 

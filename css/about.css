@@ -22,95 +22,63 @@ body{
 	left: 0;
 }
 
-#section0 {
-	background: url(../img/about.png) no-repeat;
+#section0 /*wakugumi*/{
+	background: url(../img/wadaiko1.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
 }
+
 #section0 .l0 {
-	background-color: black;
-	opacity: 0.7;
+	position: absolute;
+	background:  url(../img/wadaiko2.png) no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 #section0 .l1 {
-	position: relative;
-	top: 20px;
-	left: 700px;
-	width: 500px;
-	height: 710px;
-	background:  url(../img/50-1.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-#section0 .article {
 	position: absolute;
-}
-
-#section1 {
-	background: url(../img/about.png) no-repeat;
+	background:  url(../img/wadaiko3.png) no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
-#section1 .layer {
-	position: relative;
+#section1 /*wakugumi*/{
+	background: url(../img/2itsuki.jpg) no-repeat;
+	background-size: cover;
 	background-position: center;
-	float: left;
-}
-#section1 .l0 {
-	background-color: black;
-	opacity: 0.7;
 }
 
-#section2 {
-	background: url(../img/about.png) no-repeat;
+#section2 /*wakugumi*/{
+	background: url(../img/korabo.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 #section2 .l0 {
-	background-color: black;
-	opacity: 0.7;
+	position: absolute;
+	background:  url(../img/korabo2.png) no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 #section2 .l1 {
-	position: relative;
-	top:-15px;
-	left: -250px;
-	width: 1300px;
-	height: 865px;
-	background:  url(../img/bowy.png) no-repeat;
+	position: absolute;
+	background:  url(../img/korabo3.png) no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
-#section3 {
-	position: relative;
-	background: url(../img/kaen_back.jpg) no-repeat;
+#section3 /*wakugumi*/{
+	background: url(../img/irai21.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#section3 .l0 {
+	position: absolute;
+	background:  url(../img/irai22.png) no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 #section3 .l1 {
-	background: black;
-	opacity: 0.5;
-}
-#section3 h2,p {
-	color: white;
-}
-#secton3 .letters {
 	position: absolute;
-	top: 500px;
-	left: 500px;
-}
-
-.navi {
-	position: fixed;
-	top: 550px;
-	left: 1100px;
-	z-index: 99;
-}
-.navi img {
-	width: 100px;
-	height: 100px;
-	opacity: 0.5;
-}
-.navi img:hover {
-	opacity: 0.8; 
+	background:  url(../img/irai23.png) no-repeat;
+	background-size: cover;
+	background-position: center;
 }

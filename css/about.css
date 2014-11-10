@@ -71,15 +71,51 @@ body{
 	left: 40%;
 } 
 
-
 #section3 /*wakugumi*/{
+	background: url(../img/1asiato.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+#section3 .l0 {
+	position: absolute;
+	background:  url(../img/2asiato.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#section3 .l1 {
+	position: absolute;
+	background:  url(../img/3asiato.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#section3 .l2 {
+	position: absolute;
+	background:  url(../img/4asiato.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#section3 .l3 {
+	position: absolute;
+	background:  url(../img/5asiato.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#section3 .l4 {
+	position: absolute;
+	background:  url(../img/6asiato.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#section4 /*wakugumi*/{
 	background: url(../img/irai31.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 }
 
-#section3 h1 img {
+#section4 h1 img {
 	width: 60%;
 	height: auto;
 	position: absolute;
@@ -87,7 +123,7 @@ body{
 	left: 20%;
 }
 
-#section3 h2 img {
+#section4 h2 img {
 	width: 5%;
 	height: auto;
 	position: absolute;

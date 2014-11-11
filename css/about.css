@@ -26,36 +26,34 @@ body{
 	background: url(../img/wadaiko1.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
 }
 
-#section0 .l0 {
-	position: absolute;
-	background:  url(../img/wadaiko2.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-#section0 img {
+#section0 h1 img {
 	width: 30%;
 	height: auto;
 	position: absolute;
 	top: 15%;
 	left: 5%;
 }  
+#section0 h2 img {
+	width: 32%;
+	height: 62%;
+	position: absolute;
+	top: 38%;
+	left: 54%;
+}
 
 
 #section1 /*wakugumi*/{
 	background: url(../img/2itsuki.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
 }
 
 #section2 /*wakugumi*/{
 	background: url(../img/corabo0.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
 }
 #section2 .l0 {
 	position: absolute;
@@ -63,56 +61,67 @@ body{
 	background-size: cover;
 	background-position: center;
 }
-#section2 img {
+#section2 h1 img {
 	width: 55%;
 	height: auto;
 	position: absolute;
 	top: 15%;
 	left: 40%;
 } 
+#section2 h2 img {
+	width: 52%;
+	height: 87%;
+	position: absolute;
+	top: 15%;
+	left: 0%;
+}
 
 #section3 /*wakugumi*/{
 	background: url(../img/1asiato.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
 }
-#section3 .l0 {
+#section3 h2 img {
+	width: 83%;
+	height: 45%;
 	position: absolute;
-	background:  url(../img/2asiato.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-#section3 .l1 {
+	top: 55%;
+	left:3%;
+} 
+#section3 h3 img {
+	width: 13%;
+	height: 29%;
 	position: absolute;
-	background:  url(../img/3asiato.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-#section3 .l2 {
+	top: 71%;
+	left: 25%;
+} 
+#section3 h4 img {
+	width: 15%;
+	height: 24%;
 	position: absolute;
-	background:  url(../img/4asiato.png) no-repeat;
-	background-size: cover;
-	background-position: center;
+	top: 5%;
+	left: 0%;
 }
-#section3 .l3 {
+#section3 h5 img {
+	width: 26%;
+	height: 37%;
 	position: absolute;
-	background:  url(../img/5asiato.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-#section3 .l4 {
+	top: 20%;
+	left: 70%;
+} 
+#section3 h6 img {
+	width: 60%;
+	height: 35%;
 	position: absolute;
-	background:  url(../img/6asiato.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-}
+	top: 0%;
+	left: 25%;
+}	
+
 
 #section4 /*wakugumi*/{
 	background: url(../img/irai31.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
 }
 
 #section4 h1 img {

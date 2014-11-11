@@ -16,7 +16,7 @@ body {
 }
 
 .back0 {
-	background-image: url(../img/stage.jpg);
+	background-image: url(../img/wadaiko1.jpg);
 }
 .back1 {
 	background-image: url(../img/stage.jpg);
@@ -46,15 +46,37 @@ body {
 	width: 100%;
 	height: 800px;
 	position: absolute;
-	background: url(../img/itsuki_top.png); 
+	background-color: black; 
 	background-size: cover;
 	background-position: center;
 	opacity: 1;
 	z-index: 3;
 }
 
+.container img {
+	position: absolute;
+}
+.container .img1 {
+	width: 40%;
+	height: 67%;
+	top: 6%;
+	left: 30%;
+}
+.container .img2 {
+	width: 13%;
+	height: 84%;
+	top: 5%;
+	left: 80%;
+}
+.container .img3 {
+	width: 4%;
+	height: 93%;
+	top: 5%;
+	left: 20%;
+}
+
 .menu {
-	width: 186px;
+	width: 14%;
 	position: relative;
 	top:0%;
 	left: 0%;
@@ -62,9 +84,10 @@ body {
 }
 
 #m1 a{
+	width: 13%;
+	height: 21%;
 	position: absolute;
 	top: 27.2px;
-	left: -634px;
 	opacity: 0.5;
 	-webkit-transition: all 0.3s ease; 
 }
@@ -72,35 +95,38 @@ body {
 	opacity: 0.8;
 }
 
-#m2 img{
+#m2 a{
+	width: 13%;
+	height: 21%;
 	position: absolute;
 	top: 220.4px;
-	left: -634px;
 	opacity: 0.5;	
 	-webkit-transition: all 0.3s ease; 
 }
-#m2 img:hover{
+#m2 a:hover{
 	opacity: 0.8;
 }
 
-#m3 img{
+#m3 a{
+	width: 13%;
+	height: 21%;
 	position: absolute;
 	top: 413.6px;
-	left: -634px;
 	opacity: 0.5;	
 	-webkit-transition: all 0.3s ease; 
 }
-#m3 img:hover{
+#m3 a:hover{
 	opacity: 0.8;
 }
 
-#m4 img{
+#m4 a{
+	width: 13%;
+	height: 21%;
 	position: absolute;
 	top: 606.8px;
-	left: -634px;
 	opacity: 0.5;	
 	-webkit-transition: all 0.3s ease; 
 }
-#m4 img:hover{
+#m4 a:hover{
 	opacity: 0.8;
 }

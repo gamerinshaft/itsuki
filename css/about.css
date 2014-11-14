@@ -7,6 +7,10 @@ body{
 	height: 100%;
 }
 
+img {
+	height: auto;
+}
+
 .section {
 	width: 100%;
 	height: 800px;
@@ -22,14 +26,12 @@ body{
 }
 #section0 .img1 img{
 	width: 30%;
-	height: auto;
 	position: absolute;
 	top: 15%;
 	left: 5%;
 }  
 #section0 .img2 img{
 	width: 37%;
-	height: 62%;
 	position: absolute;
 	top: 38%;
 	left: 54%;
@@ -51,14 +53,12 @@ body{
 }
 #section2 .img1 img {
 	width: 55%;
-	height: auto;
 	position: absolute;
 	top: 10%;
 	left: 40%;
 } 
 #section2 .img2 img {
 	width: 52%;
-	height: 87%;
 	position: absolute;
 	top: 13%;
 	left: 0%;
@@ -72,35 +72,30 @@ body{
 }
 #section3 .img1 img {
 	width: 87%;
-	height: 45%;
 	position: absolute;
 	top: 55%;
 	left:3%;
 } 
 #section3 .img2 img {
 	width: 13%;
-	height: 29%;
 	position: absolute;
 	top: 71%;
 	left: 25%;
 } 
 #section3 .img3 img {
 	width: 15%;
-	height: 24%;
 	position: absolute;
 	top: 5%;
 	left: 0%;
 }
 #section3 .img4 img {
 	width: 26%;
-	height: 37%;
 	position: absolute;
 	top: 20%;
 	left: 70%;
 } 
 #section3 .img5 img {
 	width: 60%;
-	height: 35%;
 	position: absolute;
 	top: 0%;
 	left: 25%;
@@ -114,14 +109,12 @@ body{
 }
 #section4 h1 img {
 	width: 60%;
-	height: auto;
 	position: absolute;
 	top: 10%;
 	left: 20%;
 }
 #section4 h2 img {
 	width: 5%;
-	height: auto;
 	position: absolute;
 	top: 60%;
 	left: 45%;
@@ -134,7 +127,6 @@ body{
 }
 .back_icon img {
 	width: 90%;
-	height: auto;
 	opacity: 0.7;
 	-webkit-transition: all 0.7s ease; 
 }

@@ -33,18 +33,41 @@ img {
 #section0 .img2 img{
 	width: 37%;
 	position: absolute;
-	top: 38%;
+	bottom: 0%;
 	left: 54%;
 }
 
 
 #section1 /*wakugumi*/{
-	background: url(../img/about/2itsuki.jpg) no-repeat;
+	background: url(../img/about/itsuki0.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 }
-
+#section1 .img1 img{
+	width: 8%;
+	position: absolute;
+	top: 66%;
+	left: 44%;
+}
+#section1 .img2 img{
+	width: 50%;
+	position: absolute;
+	top: 58%;
+	left: 24%;
+}
+#section1 .img3 img{
+	width: 100%;
+	position: absolute;
+	top: 40%;
+	left: 0%;
+}
+#section1 .img4 img{
+	width: 13%;
+	position: absolute;
+	top: 30%;
+	left: 18%;
+}
 #section2 /*wakugumi*/{
 	background: url(../img/about/corabo0.jpg) no-repeat;
 	background-size: cover;
@@ -60,7 +83,7 @@ img {
 #section2 .img2 img {
 	width: 52%;
 	position: absolute;
-	top: 13%;
+	bottom: 0%;
 	left: 0%;
 }
 
@@ -79,8 +102,8 @@ img {
 #section3 .img2 img {
 	width: 13%;
 	position: absolute;
-	top: 71%;
-	left: 25%;
+	bottom: 0%;
+	left: 26%;
 } 
 #section3 .img3 img {
 	width: 15%;
@@ -91,8 +114,8 @@ img {
 #section3 .img4 img {
 	width: 26%;
 	position: absolute;
-	top: 20%;
-	left: 70%;
+	bottom: 50%;
+	left: 65%;
 } 
 #section3 .img5 img {
 	width: 60%;
@@ -124,6 +147,7 @@ img {
 	position: fixed;
 	top: 80%;
 	left: 90%;
+	z-index: 3;
 }
 .back_icon img {
 	width: 90%;

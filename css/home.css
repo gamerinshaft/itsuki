@@ -5,88 +5,77 @@
 body {
 	width: 100%;
 	height: 100%;
-	background-image: url(../img/home.png);
-	background-size: cover;
 }
 
-.back {
+.container {
 	width: 100%;
 	height: 800px;
 	position: absolute;
+	background-color: black; 
 	background-size: cover;
-	z-index: 1;
+	background-position: center;
+}
+.back_img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
 }
 
-.back1 {
-	background-image: url(../img/about.png);
+.back_img img {
+	position: absolute;
 }
-.back2 {
-	background-image: url(../img/history.png);
+.container .img1 {
+	width: 40%;
+	height: auto;
+	top: 6%;
+	left: 30%;
 }
-.back3 {
-	background-image: url(../img/schedule.png);
+.container .img2 {
+	width: 13%;
+	height: auto;
+	top: 5%;
+	left: 80%;
 }
-.back4 {
-	background-image: url(../img/blog.png);
-}
-
-.none {
-	display: none;
-}
-
-.active {
-	display: block !important;
-	z-index: 2 !important;
+.container .img3 {
+	width: 4%;
+	height: auto;
+	top: 5%;
+	left: 20%;
 }
 
 .menu {
-	width: 186px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0%;
+}
+.menu .img {
 	position: relative;
-	top:10%;
-	left: 0%;
-	z-index: 3;
+}
+.menu .img img {
+	width: 13%;
+	height: auto;
+	opacity: 0.7;
+}
+.menu .img img:hover{
+	opacity: 1;
 }
 
-#m1 a{
-	position: absolute;
-	top: 27.2px;
-	left: -634px;
-	-webkit-transition: all 0.5s ease; 
+.menu .m1 {
+	top: 2%;
+	left: 4%;
 }
-#m1 a:hover{
-	position: absolute;
-	left: 0px;
+.menu .m2 {
+	top: 6%;
+	left: 4%;
 }
-
-#m2 img{
-	position: absolute;
-	top: 220.4px;
-	left: -634px;
-	-webkit-transition: all 0.5s ease; 
+.menu .m3 {
+	top: 10%;
+	left: 4%;	
 }
-#m2 img:hover{
-	position: absolute;
-	left: 0px;
-}
-
-#m3 img{
-	position: absolute;
-	top: 413.6px;
-	left: -634px;
-	-webkit-transition: all 0.5s ease; 
-}
-#m3 img:hover{
-	position: absolute;
-	left: 0px;
-}
-
-#m4 img{
-	position: absolute;
-	top: 606.8px;
-	left: -634px;
-	-webkit-transition: all 0.5s ease; 
-}
-#m4 img:hover{
-	position: absolute;
-	left: 0px;
+.menu .m4 {
+	top: 14%;
+	left: 4%;
 }

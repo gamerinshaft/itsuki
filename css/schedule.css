@@ -40,10 +40,16 @@ body {
     width: 300px;
     height: 500px;
     margin: 30px;
-    background: url(../img/itsuki_memo.png);
-    background-size: cover;
-    
     position: relative;
     top: 2.5%;
     float: left;
+}
+
+.container .s1 {
+    background: url(../img/schedule/ridaisai.jpg);
+    background-size: cover;
+}
+.container .s2 {
+    background: url(../img/schedule/teiki1412.jpg);
+    background-size: cover;
 }

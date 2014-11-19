@@ -82,13 +82,13 @@
 		background-position: center;
 	}
 	#section2 .img1 img {
-		width: 55%;
+		width: 70%;
 		position: absolute;
 		top: 10%;
-		left: 40%;
+		right: 5%;
 	} 
 	#section2 .img2 img {
-		width: 52%;
+		width: 100%;
 		position: absolute;
 		bottom: 0%;
 		left: 0%;
@@ -97,12 +97,11 @@
 	#section3 /*wakugumi*/{
 		background: url(../img/about/1asiato.jpg) no-repeat;
 		background-size: cover;
-		background-position: center;
 	}
 	#section3 .img1 img {
 		width: 87%;
 		position: absolute;
-		top: 55%;
+		top: 63%;
 		left:3%;
 	} 
 	#section3 .img2 img {
@@ -126,7 +125,7 @@
 	#section3 .img5 img {
 		width: 60%;
 		position: absolute;
-		top: 0%;
+		top: 20%;
 		left: 25%;
 	}	
 
@@ -136,16 +135,16 @@
 		background-position: center;
 	}
 	#section4 h1 img {
-		width: 60%;
+		width: 90%;
 		position: absolute;
 		top: 10%;
-		left: 20%;
+		left: 5%;
 	}
 	#section4 h2 img {
-		width: 5%;
+		width: 25%;
 		position: absolute;
-		top: 60%;
-		left: 45%;
+		top: 70%;
+		left: 35%;
 	} 
 
 	.back_icon {

@@ -1,4 +1,4 @@
-@media screen and (min-width: 640px){
+@media screen and (max-width: 640px) and (orientation:portrait){
 	img {
 		max-width: 100%;
 		height: auto;
@@ -22,7 +22,7 @@
 
 	.section {
 		width: 100%;
-		height: 800px;
+		height: 550px;
 		position: relative;
 		margin: 0 auto;
 	}
@@ -31,19 +31,18 @@
 		background: url(../img/about/wadaiko1.jpg) no-repeat;
 		background-size: cover;
 		background-position: center;
-		background-attachment: fixed;
 	}
 	#section0 .img1 img{
-		width: 30%;
+		width: 50%;
 		position: absolute;
-		top: 15%;
+		top: 18%;
 		left: 5%;
 	}  
 	#section0 .img2 img{
-		width: 37%;
+		width: 80%;
 		position: absolute;
 		bottom: 0%;
-		left: 54%;
+		right: 0%;
 	}
 
 
@@ -51,37 +50,36 @@
 		background: url(../img/about/itsuki0.jpg) no-repeat;
 		background-size: cover;
 		background-position: center;
-		background-attachment: fixed;
 	}
 	#section1 .img1 img{
-		width: 8%;
+		width: 15%;
 		position: absolute;
-		top: 66%;
-		left: 44%;
+		top: 65%;
+		left: 40%;
 	}
 	#section1 .img2 img{
-		width: 50%;
+		width: 90%;
 		position: absolute;
-		top: 58%;
-		left: 24%;
+		top: 70%;
+		left: 5%;
 	}
 	#section1 .img3 img{
 		width: 100%;
 		position: absolute;
 		top: 40%;
 		left: 0%;
+		display: none;
 	}
 	#section1 .img4 img{
-		width: 13%;
+		width: 30%;
 		position: absolute;
-		top: 30%;
-		left: 18%;
+		top: 17%;
+		left: 8%;
 	}
 	#section2 /*wakugumi*/{
 		background: url(../img/about/corabo0.jpg) no-repeat;
 		background-size: cover;
 		background-position: center;
-		background-attachment: fixed;
 	}
 	#section2 .img1 img {
 		width: 55%;
@@ -100,7 +98,6 @@
 		background: url(../img/about/1asiato.jpg) no-repeat;
 		background-size: cover;
 		background-position: center;
-		background-attachment: fixed;
 	}
 	#section3 .img1 img {
 		width: 87%;
@@ -137,7 +134,6 @@
 		background: url(../img/about/irai31.jpg) no-repeat;
 		background-size: cover;
 		background-position: center;
-		background-attachment: fixed;
 	}
 	#section4 h1 img {
 		width: 60%;
@@ -153,17 +149,6 @@
 	} 
 
 	.back_icon {
-		position: fixed;
-		top: 80%;
-		left: 90%;
-		z-index: 3;
-	}
-	.back_icon img {
-		width: 90%;
-		opacity: 0.7;
-		-webkit-transition: all 0.7s ease; 
-	}
-	.back_icon img:hover {
-		opacity: 1;
+		display: none;
 	}
 }

@@ -3,8 +3,8 @@ $(function(){
 		var setWrap = $('.flickSlider'),
 		setMainView = $('.flickView'),
 		setThumbNail = $('.flickThumb'),
-		setMaxWidth = 800,
-		setMinWidth = 320,
+		setMaxWidth = 400,
+		setMinWidth = 0,
 		thumbNum = 6,
 		thumbOpc = 0.5,
 		scrollSpeed  = 500,
@@ -21,7 +21,6 @@ $(function(){
 			mainWidth = parseInt(childMain.css('width')),mainHeight = parseInt(childMain.css('height')),listCount = mainUl.children('li').length;
 
 			thisObj.css({display:'block'});
-0
 			// レスポンシブ動作メイン
 			imgSize();
 			function imgSize(){
@@ -50,7 +49,7 @@ $(function(){
 					leftMax = -((listWidthB)*((listCount)-1));
 					thisObj.css({width:setMaxWidth});
 					if(windowWidth >= setMinWidth) {
-						thisObj.css({width:'50%'});
+						thisObj.css({width:'80%'});
 						childMain.css({width:'100%'});
 						mainUl.css({width:((listWidthB)*(listCount))});
 						mainLi.css({width:(listWidthB)});

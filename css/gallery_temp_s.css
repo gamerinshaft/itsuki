@@ -1,4 +1,4 @@
-@media screen and (min-width: 640px){
+@media screen and (max-width: 640px) and (orientation:portrait){
 	img {
 		max-width: 100%;
 		height: auto;
@@ -29,9 +29,6 @@
 		margin: 0 auto;
 		text-align: left;
 		display: none;
-		position: absolute;
-		top: 15%;
-		left: 3%;
 	}
 
 	/* .flickView
@@ -128,17 +125,18 @@
 		height: 800px;
 	}
 
-	.memo_l {
+	.memo_p {
 		display: none;
 	}
 
-	.memo_p {
-		width: 30%;
-		position: absolute;
-		top: 15%;
-		right: 3%;
+	.memo_l {
+		width: 60%;
+		margin-top: 5%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20%;
 	}
-	.memo_p img {
+	.memo_l img {
 		width: 100%;
 		height: auto;
 	}

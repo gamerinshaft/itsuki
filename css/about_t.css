@@ -31,7 +31,6 @@
 		background: url(../img/about/wadaiko1.jpg) no-repeat;
 		background-size: cover;
 		background-position: center;
-		background-attachment: fixed;
 	}
 	#section0 .img1 img{
 		width: 30%;
@@ -50,8 +49,6 @@
 	#section1 /*wakugumi*/{
 		background: url(../img/about/itsuki0.jpg) no-repeat;
 		background-size: cover;
-		background-position: center;
-		background-attachment: fixed;
 	}
 	#section1 .img1 img{
 		width: 8%;
@@ -81,7 +78,6 @@
 		background: url(../img/about/corabo0.jpg) no-repeat;
 		background-size: cover;
 		background-position: center;
-		background-attachment: fixed;
 	}
 	#section2 .img1 img {
 		width: 55%;
@@ -100,7 +96,6 @@
 		background: url(../img/about/1asiato.jpg) no-repeat;
 		background-size: cover;
 		background-position: center;
-		background-attachment: fixed;
 	}
 	#section3 .img1 img {
 		width: 87%;
@@ -137,7 +132,6 @@
 		background: url(../img/about/irai31.jpg) no-repeat;
 		background-size: cover;
 		background-position: center;
-		background-attachment: fixed;
 	}
 	#section4 h1 img {
 		width: 60%;

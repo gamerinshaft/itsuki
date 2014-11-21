@@ -10,7 +10,7 @@
 
 	* {
 		margin: 0;
-		padding: 0; 
+		padding: 0;
 	}
 	body {
 		width: 100%;
@@ -21,7 +21,7 @@
 		width: 100%;
 		height: 100%;
 		position: absolute;
-		background-color: black; 
+		background-color: black;
 		background-size: cover;
 		background-position: center;
 	}
@@ -30,6 +30,10 @@
 		height: 80%;
 		position: absolute;
 		left: 0%;
+		background-image: url("../img/home_bg1.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
 	}
 
 	.back_img img {

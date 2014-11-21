@@ -4,7 +4,7 @@ $(function(){
     	setMaxWidth  = 440
 		setMinWidth  = 320
     }else{
-			setMaxWidth  = 320
+			setMaxWidth  = 300
 			setMinWidth  = 100
 	  }
 		var setWrap  = $('.flickSlider')

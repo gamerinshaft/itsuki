@@ -1,12 +1,15 @@
 $(function(){
 	$(window).load(function(){
-		console.log($(window).width())
-		// if $(window).width() > 640
+    if($(window).width() > 640){
+    	setMaxWidth  = 440
+			setMinWidth  = 320
+    }else{
+			setMaxWidth  = 320
+			setMinWidth  = 320
+	  }
 		var setWrap  = $('.flickSlider')
 		setMainView  = $('.flickView')
 		setThumbNail = $('.flickThumb')
-		setMaxWidth  = 150
-		setMinWidth  = 320
 		thumbNum     = 6
 		thumbOpc     = 0.5
 		scrollSpeed  = 500

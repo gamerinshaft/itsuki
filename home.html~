@@ -1,46 +1,51 @@
-<!DOCTYPE html>
+nnnnnnnn<!DOCTYPE html>
 <html lang="ja">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scable=no initial-scale=1">
     <title>home</title>
-
-    <link href="css/home.css" rel="stylesheet"><!--外部cssから読込む-->
-
+    <link href="css/home.css" media="all" rel="stylesheet">
+    <link href="css/home_s.css" media="all" rel="stylesheet">
+    <link href="css/home_t.css" media="all" rel="stylesheet">
   </head>
 
   <body>
 
     <div class="container">
-      <img class="top-image" src="images/itsuki.png" width="600" height="600">
       
-      <div class="menu">
-        <div class="m1"><a href="#"><img src="images/miyake4.png" alt="about" width="217" height="200"></a></div>
-        <div class="m2"><a href="#"><img src="images/senaka3.png" alt="gallery" width="61" height="200"></a></div>
-        <div class="m3"><a href="#"><img src="images/tate3.png" alt="schedule" width="71" height="200"></a></div>
-        <div class="m4"><a href="#"><img src="images/bisha3.png" alt="blog" width="71" height="200"></a></div>
+      <div class="back_img">
+        <img class="img1" src="img/home/itsuki_top1.png">
+        <img class="img2" src="img/home/itsuki_topr.png">
+        <img class="img3" src="img/home/itsuki_topl.png">
       </div>
       
-      <div class="sonota">
+      <div class="menu" id="menu">
+        <div class="img m1"><a href="about.html"><img src="img/home/icon_about1.png" alt="about"></a></div>
+        <div class="img m2"><a href="history.html"><img src="img/home/icon_history1.png" alt="history"></a></div>
+        <div class="img m3"><a href="schedule.html"><img src="img/home/icon_schedule1.png" alt="schedule"></a></div>
+        <div class="img m4"><a href="about.html#section4"><img src="img/home/icon_contact1.png" alt="blog"></a></div>
+      </div>
 
-        <div class="koushin">
-          更新
-        </div>
-        
-        <div class="movie">
-          movie
-        </div> 
-        
-        <div class="twitter">
-          twitter
-        </div>
-        
-        <div class="irai">
-          出演以来は　こちら
-        </div>
-      
+      <div class="menu_s" id="menu_s">
+        <div class="img m1"><a href="about.html"><img src="img/home/icon_about2.png" alt="about"></a></div>
+        <div class="img m2"><a href="history.html"><img src="img/home/icon_history2.png" alt="history"></a></div>
+        <div class="img m3"><a href="schedule.html"><img src="img/home/icon_schedule2.png" alt="schedule"></a></div>
+        <div class="img m4"><a href="about.html#section4"><img src="img/home/icon_contact2.png" alt="blog"></a></div>
       </div>
+
+      <!--
+        Special Thanks
+          design  mittsu-
+          image   yukki-
+          article   gasshi-
+          asistant  maimai
+          camera  
+          advice&bagfix tanishi
+          cording yu-ko
+          
+          ...and you!!
+       -->
 
     </div>
 

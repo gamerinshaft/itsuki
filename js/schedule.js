@@ -1,17 +1,19 @@
 $(function(){
 	$(window).load(function(){
-		var setWrap = $('.flickSlider'),
-		setMainView = $('.flickView'),
-		setThumbNail = $('.flickThumb'),
-		setMaxWidth = 150,
-		setMinWidth = 320,
-		thumbNum = 6,
-		thumbOpc = 0.5,
-		scrollSpeed  = 500,
-		delayTime = 5000,
-		easing = 'linear',
-		sideNavi = 'on', // 'on' or 'off'
-		autoPlay = 'off'; // 'on' or 'off'
+		console.log($(window).width())
+		// if $(window).width() > 640
+		var setWrap  = $('.flickSlider')
+		setMainView  = $('.flickView')
+		setThumbNail = $('.flickThumb')
+		setMaxWidth  = 150
+		setMinWidth  = 320
+		thumbNum     = 6
+		thumbOpc     = 0.5
+		scrollSpeed  = 500
+		delayTime    = 5000
+		easing       = 'linear'
+		sideNavi     = 'on' // 'on' or 'off'
+		autoPlay     = 'off' // 'on' or 'off'
 
 		var agent = navigator.userAgent;
 		setWrap.each(function(){
